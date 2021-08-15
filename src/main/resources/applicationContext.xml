@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--启动注解驱动  要扫描哪个包下的资源，指定资源所在的顶层的包 -->
+    <context:component-scan base-package="com.itheima"/>
+
+
+<!--使用注解，不需要下面啦-->
+<!--    <bean id="userService" class="com.itheima.service.impl.UserServiceImpl"/>-->
+<!--    <bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl"/>-->
+<!--    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl"/>-->
+
+    <!--加载第三方的bean-->
+<!--<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">-->
+<!--    &lt;!&ndash;配置四个property&ndash;&gt;-->
+<!--</bean>-->
+
+
+</beans>
